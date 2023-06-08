@@ -6,7 +6,6 @@ const Footer = ()=>{
     const [currentYear, setCurrentYear] = useState('');
 
   useEffect(() => {
-    // Get the current year when the component mounts
     const year = new Date().getFullYear();
     setCurrentYear(year.toString());
   }, []);
@@ -23,6 +22,7 @@ return(
                 <img className="footer__medsos-icon" src="../../../asset/icon/mail.svg" alt="" />
                 <img className="footer__medsos-icon" src="../../../asset/icon/telp.svg" alt="" />
                 <img className="footer__medsos-icon" src="../../../asset/icon/insta.svg" alt="" />
+
             </div>
         </div>
         <div className="footer__categories">

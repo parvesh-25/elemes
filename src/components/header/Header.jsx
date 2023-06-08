@@ -5,18 +5,28 @@ const Header = () => {
 return (
 <nav className="navbar">
     <div className="navbar__brand">
-        <img  className="navbar__brand-img" src="../../asset/image/logo.png" alt="Logo" />
+        <img className="navbar__brand-img" src="../../asset/image/logo.png" alt="Logo" />
     </div>
     <div className="navbar__menu">
         <ul className="navbar__menu-list">
-            <li className="navbar__menu-item">Home</li>
-            <li className="navbar__menu-item">About</li>
-            <li className="navbar__menu-item navbar__menu-item--promotions">Promotions
+            <li className="navbar__menu-item">
+                <a className="navbar__item-btn" href="/">Home</a>
+            </li>
+            <li className="navbar__menu-item">
+                <a className="navbar__item-btn" href="/about">About</a>
+            </li>
+            <li className="navbar__menu-item navbar__menu-item--promotions">
+                <a className="navbar__item-btn" href="/promotions">Promotions</a>
                 <span className="navbar__menu-item-badge">HOT</span>
             </li>
-            <li className="navbar__menu-item">Blogs</li>
-            <li className="navbar__menu-item">Contact Us</li>
+            <li className="navbar__menu-item">
+                <a className="navbar__item-btn" href="/blogs">Blogs</a>
+            </li>
+            <li className="navbar__menu-item">
+                <a className="navbar__item-btn" href="/contact">Contact Us</a>
+            </li>
         </ul>
+
     </div>
     <div className="navbar__auth">
         <button className="navbar__auth-button navbar__auth-button--signin ">Masuk</button>

@@ -30,12 +30,10 @@
     height: 215px;
     overflow-x: auto;
     position: relative;
-    /* background-color: yellow; */
 }
 
 .category__card-list::-webkit-scrollbar {
     display: none;
-    /* Chrome, Safari, and Opera */
 }
 
 .category__card {
