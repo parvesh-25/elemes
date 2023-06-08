@@ -1,10 +1,11 @@
 import React from "react";
+import "../header/header.css";
 
 const Header = () => {
 return (
 <nav className="navbar">
     <div className="navbar__brand">
-        <img src="../../asset/image/logo.png" alt="Logo" />
+        <img  className="navbar__brand-img" src="../../asset/image/logo.png" alt="Logo" />
     </div>
     <div className="navbar__menu">
         <ul className="navbar__menu-list">

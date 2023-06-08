@@ -2,9 +2,6 @@
 import "../footer/footer.css";
 import React, { useState, useEffect } from 'react';
 
-
-
-
 const Footer = ()=>{
     const [currentYear, setCurrentYear] = useState('');
 
@@ -25,7 +22,7 @@ return(
 
                 <img className="footer__medsos-icon" src="../../../asset/icon/mail.svg" alt="" />
                 <img className="footer__medsos-icon" src="../../../asset/icon/telp.svg" alt="" />
-                <img className="footer__medsos-icon" src="../../../asset/icon/ig.svg" alt="" />
+                <img className="footer__medsos-icon" src="../../../asset/icon/insta.svg" alt="" />
             </div>
         </div>
         <div className="footer__categories">

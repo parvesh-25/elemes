@@ -1,12 +1,12 @@
 footer {
     width: 100vw;
-    height:646px;
-    padding: 32px 120px;
+    padding: 32px 108px;
     display: flex;
     flex-direction: column;
     align-items:center;
     justify-content:end;
     gap: 48px;
+    
 }
 
 .footer__container {
@@ -31,11 +31,7 @@ footer {
     text-transform: uppercase;
 }
 
-/* .footer__brief{
-    display:flex;
-    flex-diection:;
-    gap:33px;
-} */
+
 
  .footer__brief-logo{
     width:207px;
@@ -49,7 +45,6 @@ footer {
 
 .footer__medsos-icon:hover {
     background-color: var(--primary);
-    color: white;
     stroke:white;
 }
 
@@ -167,5 +162,59 @@ footer {
     display:flex;
     gap:3px;
     align-items:center;
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    footer{
+        padding:32px 50px;
+    }
+
+    .footer__container{
+        padding:42px;
+    }
+
+    .footer__brief-about{
+        width:270px;
+        height:auto;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    footer{
+        padding:32px 20px;
+    }
+
+    .footer__container{
+        padding:50px 10px;
+    }
+
+    .footer__brief-about{
+        width:200px;
+        height:auto;
+        margin-bottom:33px;
+    }
+
+    .footer__newsletter-text{
+        width:200px;
+        margin:18px 0;
+    }
+
+    .footer__input-container{
+        width:200px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    footer{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer{
+        display:none;
+    }
 }
 

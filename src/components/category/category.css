@@ -1,8 +1,8 @@
 .category {
     height: 573px;
     width: 100vw;
-    padding: 64px  108px;
-    padding-right:0;
+    padding: 64px 108px;
+    padding-right: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,20 +22,21 @@
     color: var(--primary);
 }
 
-.category__card-list{
+.category__card-list {
     display: flex;
     padding: 10px;
     padding-left: 0;
     gap: 10px;
     height: 215px;
     overflow-x: auto;
-    position:relative;
+    position: relative;
     /* background-color: yellow; */
 }
 
 .category__card-list::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, and Opera */
-  }
+    display: none;
+    /* Chrome, Safari, and Opera */
+}
 
 .category__card {
     width: 230px;
@@ -83,11 +84,11 @@
     color: var(--black);
 }
 
-.category__buttons{
+.category__buttons {
     display: flex;
     justify-content: flex-end;
     gap: 13px;
-    margin-right:108px;
+    margin-right: 108px;
 }
 
 .category__button {
@@ -109,25 +110,74 @@
 
 
 
-.category__button-icon{
+.category__button-icon {
     width: 33px;
     height: 33px;
 }
 
 
-@media screen and (min-width: 1025px) {
-    /* .category{
-        display: none;
-    } */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .category {
+        height: 473px;
+        padding: 64px 50px;
+        padding-right: 0;
+    }
 }
 
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
+    .category {
+        height: 453px;
+        padding: 34px 20px;
+        padding-right: 0;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    .category {
+        height: 400px;
+        padding: 20px 0;
+        justify-content: space-around;
+
+    }
+    .category__heading{
+        padding:0 33px;
+    }
+
+    .category__heading-text {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    
+    .category__buttons {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .category {
+        height: 400px;
+        padding: 20px 0;
+        justify-content: space-around;
+
+    }
+    .category__heading{
+        padding:0 20px;
+    }
+
+    .category__heading-text {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .category__buttons {
+        display: none;
+    }
 }

@@ -1,0 +1,154 @@
+.navbar {
+    position: fixed;
+    z-index: 10;
+    padding: 0 108px;
+    width: 100vw;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .navbar__menu {
+    width: auto;
+  }
+  
+  .navbar__menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding:0;
+    gap: 32px;
+  }
+  
+  .navbar__menu-item {
+    color: var(--text-grey);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: rubik;
+  }
+  
+  .navbar__menu-item--promotions {
+    position: relative;
+  }
+  
+  .navbar__menu-item-badge {
+    position: absolute;
+    top: -15px;
+    right: -8px;
+    width: 36px;
+    height: 19px;
+    background-color: #E7462D;
+    color: white;
+    font-size: 8px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  
+  .navbar__auth {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .navbar__auth-button {
+    border: none;
+    background-color: none;
+  }
+  
+  .navbar__auth-button--signin {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: rubik;
+    background-color: transparent;
+  }
+  
+  .navbar__auth-button--signup {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--primary);
+    color: white;
+    font-family: rubik;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .navbar{
+        padding:0 50px;
+    }
+
+    .navbar__menu-item {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .navbar{
+        padding:0 20px;
+    }
+
+    .navbar__brand-img{
+        width:107px;
+        height:30px;
+    }
+
+    .navbar__auth{
+        gap:10px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .navbar{
+        padding:0 33px;
+        background-color:white;
+        border: 1px solid #F8F8F8;
+        position:relative;
+    }
+
+    .navbar__menu{
+        display:none;
+    }
+    .navbar__auth-button--signin{
+        display:none;
+    }
+
+    .navbar__brand-img{
+        height:36px;
+        width:150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar{
+        padding:0 20px;
+        background-color:white;
+        border: 1px solid #F8F8F8;
+        position:relative;
+
+    }
+
+    .navbar__menu{
+        display:none;
+    }
+    .navbar__auth-button--signin{
+        display:none;
+    }
+
+    .navbar__brand-img{
+        height:26px;
+        width:140px;
+    }
+}
