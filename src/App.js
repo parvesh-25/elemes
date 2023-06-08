@@ -1,6 +1,8 @@
 import './App.css';
 import Header from './components/Header';
 import Category from './components/category/Category';
+import Trending from './components/trending/Trending';
+import Footer from './components/footer/Footer';
 
 const App=()=> {
 return (
@@ -45,6 +47,8 @@ return (
     </div>
   </section>
    <Category/>
+   <Trending/>
+   <Footer/>
 </div>
 );
 }

@@ -19,41 +19,41 @@ const dataCategory = [{
         items: "12 Items",
         color:"#EAEEFA"
     },
-    // {
-    //     id: 4,
-    //     image: "../asset/icon/salmon.svg",
-    //     name: "Salmon",
-    //     items: "22 Items",
-    //     color:"#F9EEF3"
-    // },
-    // {
-    //     id: 5,
-    //     image: "../asset/icon/doughnut.svg",
-    //     name: "Doughnut",
-    //     items: "11 Items",
-    //     color:"#F3F7D9"
-    // },
-    // {
-    //     id: 6,
-    //     image: "../asset/icon/kebab.svg",
-    //     name: "Kebab",
-    //     items: "12 Items",
-    //     color:"#EAEEFA"
-    // },
-    // {
-    //     id: 7,
-    //     image: "../asset/icon/salmon.svg",
-    //     name: "Salmon",
-    //     items: "22 Items",
-    //     color:"#F9EEF3"
-    // },
-    // {
-    //     id: 8,
-    //     image: "../asset/icon/doughnut.svg",
-    //     name: "Doughnut",
-    //     items: "11 Items",
-    //     color:"#F3F7D9"
-    // },
+    {
+        id: 4,
+        image: "../asset/icon/salmon.svg",
+        name: "Salmon",
+        items: "22 Items",
+        color:"#F9EEF3"
+    },
+    {
+        id: 5,
+        image: "../asset/icon/doughnut.svg",
+        name: "Doughnut",
+        items: "11 Items",
+        color:"#F3F7D9"
+    },
+    {
+        id: 6,
+        image: "../asset/icon/kebab.svg",
+        name: "Kebab",
+        items: "12 Items",
+        color:"#EAEEFA"
+    },
+    {
+        id: 7,
+        image: "../asset/icon/salmon.svg",
+        name: "Salmon",
+        items: "22 Items",
+        color:"#F9EEF3"
+    },
+    {
+        id: 8,
+        image: "../asset/icon/doughnut.svg",
+        name: "Doughnut",
+        items: "11 Items",
+        color:"#F3F7D9"
+    },
 ]
 
 export default dataCategory;

@@ -1,0 +1,171 @@
+footer {
+    width: 100vw;
+    height:646px;
+    padding: 32px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:end;
+    gap: 48px;
+}
+
+.footer__container {
+    height: 359px;
+    width: 100%;
+    background: #F9FFF7;
+    border-radius: 20px;
+    padding: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    color: var(--text-grey);
+    text-transform: uppercase;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* .footer__brief{
+    display:flex;
+    flex-diection:;
+    gap:33px;
+} */
+
+ .footer__brief-logo{
+    width:207px;
+    height:50px;
+} 
+
+.footer__medsos-icon {
+    padding: 10px;
+    border-radius: 500px;
+} 
+
+.footer__medsos-icon:hover {
+    background-color: var(--primary);
+    color: white;
+    stroke:white;
+}
+
+.footer__brief-about {
+    margin-top: 21px;
+    margin-bottom: 33px;
+    width: 336px;
+    height: 60px;
+    /* Paragraph/Paragraph-Default */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--text-grey);
+}
+
+
+.footer__title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--black);
+    margin-bottom: 33px;
+}
+
+.footer__menu {
+    list-style: none;
+    /* background:blue; */
+    padding: 0;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu-item {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--text-grey);
+    text-decoration: none;
+}
+
+.footer__newsletter-text {
+    width: 245px;
+    height: 48px;
+    color: var(--text-grey);
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 18px 0;
+}
+
+.footer__input-container {
+    display: flex;
+    width:250px;
+    height:40px;
+}
+
+.footer__input {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: none;
+    width: 100%;
+    border-radius: 8px 0 0 8px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.footer__input::placeholder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--black);
+}
+
+.footer__submit-button {
+    background-color: #8BAC3E;
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.footer__newsletter-contacts{
+    margin-top: 19px;
+    display:flex;
+    flex-direction:column;
+    gap:14px
+}
+
+.footer__contact {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--black);
+    display:flex;
+    gap:3px;
+    align-items:center;
+}
+
